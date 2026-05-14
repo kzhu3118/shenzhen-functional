@@ -1,0 +1,56 @@
+{
+  "training_sources": [
+    "2020 multi-source strong labels",
+    "2000/2005/2010/2015 TCULU historical weak labels",
+    "2005 manual production/living samples"
+  ],
+  "classes": [
+    "farmland",
+    "green_space",
+    "living",
+    "production",
+    "water"
+  ],
+  "years": [
+    2000,
+    2005,
+    2010,
+    2015,
+    2020
+  ],
+  "weak_years": [
+    2000,
+    2005,
+    2010,
+    2015
+  ],
+  "feature_count": 70,
+  "model_features_include_year_norm": true,
+  "args": {
+    "feature_dir": "data/GEE/shenzhen_features_2000_2020",
+    "grid_gpkg": "data/poi_2020/poi_clean/grid_scored_2020_FD.gpkg",
+    "grid_layer": "grid_scored",
+    "tculu_grid_gpkg": "data/tculu_shenzhen/validate_rf_ples_thr10/rf_ples_vs_tculu_grid_validation.gpkg",
+    "tculu_layer": "rf_ples_vs_tculu",
+    "strong_label_csv": "data/multisource_labels_2020_5class_weight_sweep/tculuProd_1p5/multisource_labels_2020_5class.csv",
+    "manual_grid_gpkg": "data/manual_samples_2005/manual_2005_grid_labels.gpkg",
+    "manual_grid_layer": "manual_2005_grid_labels",
+    "gaia_grid_gpkg": "data/GAIA_processed/ratio_thr10/grid_gaia_raw_masks_ratio_thr10.gpkg",
+    "gaia_grid_layer": "grid_gaia_masks",
+    "out_dir": "data/mlp_multiyear_5class_joint_tculuWeak_manual2005_gaia_thr10",
+    "years": "2000,2005,2010,2015,2020",
+    "historical_weak_years": "2000,2005,2010,2015",
+    "drop_ntl": false,
+    "strong_min_confidence": 0.4,
+    "historical_min_dom_frac": 0.55,
+    "historical_min_valid_frac": 0.2,
+    "historical_weight": 0.35,
+    "historical_production_weight": 0.6,
+    "manual_weight": 2.0,
+    "mlp_hidden": "128,64",
+    "mlp_max_iter": 500,
+    "mlp_resample_multiplier": 1.5,
+    "rf_trees": 500,
+    "no_gaia_constraint": false
+  }
+}

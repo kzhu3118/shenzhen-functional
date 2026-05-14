@@ -1,0 +1,70 @@
+{
+  "model": "PLES_noNTL_manual2005_gaia_ratio",
+  "feature_count": 65,
+  "manual_weight": 2.0,
+  "mixed_weight_2020": 0.6,
+  "training_counts": [
+    {
+      "source": "manual_2005",
+      "y": "living",
+      "n": 54
+    },
+    {
+      "source": "manual_2005",
+      "y": "production",
+      "n": 41
+    },
+    {
+      "source": "poi_2020",
+      "y": "living",
+      "n": 5358
+    },
+    {
+      "source": "poi_2020",
+      "y": "production",
+      "n": 1424
+    }
+  ],
+  "best_params": {
+    "n_estimators": 500,
+    "min_samples_split": 2,
+    "min_samples_leaf": 10,
+    "max_features": "log2",
+    "max_depth": null
+  },
+  "cv_best_f1_macro": 0.6773239622352468,
+  "internal_accuracy": 0.7873062015503876,
+  "internal_f1_macro": 0.6903369740515524,
+  "classes": [
+    "living",
+    "production"
+  ],
+  "classification_report": {
+    "living": {
+      "precision": 0.8714733542319749,
+      "recall": 0.8559113300492611,
+      "f1-score": 0.8636222429325877,
+      "support": 1624.0
+    },
+    "production": {
+      "precision": 0.5010660980810234,
+      "recall": 0.5340909090909091,
+      "f1-score": 0.517051705170517,
+      "support": 440.0
+    },
+    "accuracy": 0.7873062015503876,
+    "macro avg": {
+      "precision": 0.6862697261564992,
+      "recall": 0.6950011195700851,
+      "f1-score": 0.6903369740515524,
+      "support": 2064.0
+    },
+    "weighted avg": {
+      "precision": 0.7925105670680124,
+      "recall": 0.7873062015503876,
+      "f1-score": 0.789740926742999,
+      "support": 2064.0
+    }
+  },
+  "gaia_grid_gpkg": "data/GAIA_processed/ratio_thr10/grid_gaia_raw_masks_ratio_thr10.gpkg"
+}

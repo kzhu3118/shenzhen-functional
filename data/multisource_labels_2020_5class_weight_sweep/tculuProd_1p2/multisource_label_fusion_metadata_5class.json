@@ -1,0 +1,45 @@
+{
+  "target_classes": [
+    "production",
+    "living",
+    "green_space",
+    "water",
+    "farmland"
+  ],
+  "source_counts": {
+    "poi": 6782,
+    "euluc": 4939,
+    "tculu": 10204,
+    "fused": 13253
+  },
+  "fused_distribution": {
+    "NaN": 6474,
+    "living": 6324,
+    "green_space": 4345,
+    "production": 2244,
+    "farmland": 184,
+    "water": 156
+  },
+  "fusion_status_distribution": {
+    "single_source": 8516,
+    "no_label": 6474,
+    "consensus": 4725,
+    "tie_or_conflict": 12
+  },
+  "args": {
+    "grid_gpkg": "data/poi_2020/poi_clean/grid_scored_2020_FD.gpkg",
+    "grid_layer": "grid_scored",
+    "euluc_shp": "data/validation/EULUC_Shenzhen.shp",
+    "tculu_grid_gpkg": "data/tculu_shenzhen/validate_rf_ples_thr10/rf_ples_vs_tculu_grid_validation.gpkg",
+    "tculu_layer": "rf_ples_vs_tculu",
+    "out_dir": "data/multisource_labels_2020_5class_weight_sweep/tculuProd_1p2",
+    "poi_pure_weight": 1.0,
+    "poi_mixed_weight": 0.6,
+    "euluc_weight": 0.8,
+    "tculu_weight": 0.8,
+    "tculu_production_weight": 1.2,
+    "tculu_min_dom_frac": 0.5,
+    "tculu_min_valid_frac": 0.2,
+    "min_fused_confidence": 0.34
+  }
+}

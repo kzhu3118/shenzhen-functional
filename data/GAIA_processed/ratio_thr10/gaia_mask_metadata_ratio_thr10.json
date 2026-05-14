@@ -1,0 +1,15 @@
+{
+  "gaia_raster": "data/GEE/GAIA/gaia_shenzhen/gaia_shenzhen.tif",
+  "grid_gpkg": "data/poi_2020/poi_clean/grid_scored_2020_FD.gpkg",
+  "coding": "value 1=1985, value 40=2024; built if built-pixel ratio >= threshold",
+  "years": [
+    2000,
+    2005,
+    2010,
+    2015,
+    2020
+  ],
+  "built_ratio_threshold": 0.1,
+  "all_touched": false,
+  "output_gpkg": "data/GAIA_processed/ratio_thr10/grid_gaia_raw_masks_ratio_thr10.gpkg"
+}

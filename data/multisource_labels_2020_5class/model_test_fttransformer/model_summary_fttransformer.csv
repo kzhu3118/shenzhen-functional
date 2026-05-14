@@ -1,0 +1,2 @@
+﻿model,n_train,n_val,n_test,accuracy,f1_macro,f1_weighted,classes,feature_count,device,monitor,best_epoch,best_metric,torch_num_threads,torch_num_interop_threads,num_workers
+fttransformer,7881,1391,3975,0.719748427672956,0.6185402187006391,0.7317825068364516,"['farmland', 'green_space', 'living', 'production', 'water']",70,cpu,val_f1_macro,99,0.6640103737418361,10,10,0

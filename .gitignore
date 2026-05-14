@@ -1,0 +1,10 @@
+.DS_Store
+._*
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+figures/
+data/external/china_urban_landuse/*.tif
+data/**/rf_multisource_2020.joblib
+data/**/rf_joint_5class_multiyear.joblib
+data/poi_2020/poi_clean/shenzhen_poi_clean_2020.gpkg

@@ -1,0 +1,86 @@
+shenzhen-functional/code/01_poi_inspect_inventory.py:93:                k in c.lower() for k in ['name', '名称', 'title']
+shenzhen-functional/code/01_poi_inspect_inventory.py:96:                k in c.lower() for k in ['type', '类型', '类别', 'class', 'kind', 'cat']
+shenzhen-functional/code/01_poi_inspect_inventory.py:99:                k in c.lower() for k in ['addr', '地址', 'location']
+shenzhen-functional/code/01_poi_inspect_inventory.py:146:                k in c.lower() for k in ['type', '类型', '类别', 'class', 'kind', 'cat']
+shenzhen-functional/code/01_poi_inspect_inventory.py:195:                k in c.lower() for k in ['name', '名称', 'title']
+shenzhen-functional/code/01_poi_inspect_inventory.py:263:                k in c.lower() for k in ['name', '名称', 'title']
+shenzhen-functional/code/21_compare_area_with_tculu_official.py:83:    off = off.rename(columns={"年份": "year", "指标": "indicator", "面积": "area", "单位": "unit"})
+shenzhen-functional/code/21_compare_area_with_tculu_official.py:86:    off.loc[off["unit"].eq("公顷"), "area_km2"] = off.loc[off["unit"].eq("公顷"), "area_km2"] / 100.0
+shenzhen-functional/code/21_compare_area_with_tculu_official.py:90:        if s == "城市工业建设用地面积":
+shenzhen-functional/code/21_compare_area_with_tculu_official.py:92:        if s == "城市居住建设用地面积":
+shenzhen-functional/code/21_compare_area_with_tculu_official.py:94:        if s == "城市商业服务业设施用地面积":
+shenzhen-functional/code/21_compare_area_with_tculu_official.py:96:        if s == "建成区面积":
+shenzhen-functional/code/21_compare_area_with_tculu_official.py:98:        if s == "国有建设工矿仓储用地供应情况":
+shenzhen-functional/code/21_compare_area_with_tculu_official.py:104:    return off[["year", "metric", "area_km2", "indicator", "unit", "来源"]]
+shenzhen-functional/code/03_poi_clean_base.py:39:    '深圳市_公司企业.shp': {
+shenzhen-functional/code/03_poi_clean_base.py:41:        'keep_zhonglei': ['工厂', '机械电子', '冶金化工'],
+shenzhen-functional/code/03_poi_clean_base.py:47:    '深圳市_商务住宅.shp': {
+shenzhen-functional/code/03_poi_clean_base.py:54:    '深圳市_购物服务.shp':   {'strategy': 'all_to', 'subclass': 'commercial', 'ples': 'living'},
+shenzhen-functional/code/03_poi_clean_base.py:55:    '深圳市_餐饮服务.shp':   {'strategy': 'all_to', 'subclass': 'commercial', 'ples': 'living'},
+shenzhen-functional/code/03_poi_clean_base.py:56:    '深圳市_住宿服务.shp':   {'strategy': 'all_to', 'subclass': 'commercial', 'ples': 'living'},
+shenzhen-functional/code/03_poi_clean_base.py:57:    '深圳市_金融保险服务.shp': {'strategy': 'all_to', 'subclass': 'commercial', 'ples': 'living'},
+shenzhen-functional/code/03_poi_clean_base.py:58:    '深圳市_汽车销售.shp':   {'strategy': 'all_to', 'subclass': 'commercial', 'ples': 'living'},
+shenzhen-functional/code/03_poi_clean_base.py:59:    '深圳市_生活服务.shp':   {'strategy': 'all_to', 'subclass': 'commercial', 'ples': 'living'},
+shenzhen-functional/code/03_poi_clean_base.py:60:    '深圳市_体育休闲服务.shp': {'strategy': 'all_to', 'subclass': 'commercial', 'ples': 'living'},
+shenzhen-functional/code/03_poi_clean_base.py:63:    '深圳市_科教文化服务.shp':   {'strategy': 'all_to', 'subclass': 'public_service', 'ples': 'living'},
+shenzhen-functional/code/03_poi_clean_base.py:64:    '深圳市_医疗保健服务.shp':   {'strategy': 'all_to', 'subclass': 'public_service', 'ples': 'living'},
+shenzhen-functional/code/03_poi_clean_base.py:65:    '深圳市_政府机构及社会团体.shp': {'strategy': 'all_to', 'subclass': 'public_service', 'ples': 'living'},
+shenzhen-functional/code/03_poi_clean_base.py:68:    '深圳市_风景名胜.shp': {'strategy': 'all_to', 'subclass': 'ecological', 'ples': 'ecological'},
+shenzhen-functional/code/03_poi_clean_base.py:71:    '深圳市_公共设施.shp':       {'strategy': 'discard', 'reason': 'streetlights, public toilets, gates; not relevant to PLES'},
+shenzhen-functional/code/03_poi_clean_base.py:72:    '深圳市_室内设施.shp':       {'strategy': 'discard', 'reason': 'indoor navigation points'},
+shenzhen-functional/code/03_poi_clean_base.py:73:    '深圳市_通行设施.shp':       {'strategy': 'discard', 'reason': 'metro stations or gates'},
+shenzhen-functional/code/03_poi_clean_base.py:74:    '深圳市_交通设施服务.shp':   {'strategy': 'discard', 'reason': 'transport infrastructure'},
+shenzhen-functional/code/03_poi_clean_base.py:75:    '深圳市_道路附属设施.shp':   {'strategy': 'discard', 'reason': 'road facilities'},
+shenzhen-functional/code/03_poi_clean_base.py:76:    '深圳市_汽车服务.shp':       {'strategy': 'discard', 'reason': 'auto-service POIs with weak functional signal'},
+shenzhen-functional/code/03_poi_clean_base.py:77:    '深圳市_汽车维修.shp':       {'strategy': 'discard', 'reason': 'auto-repair POIs with weak functional signal'},
+shenzhen-functional/code/03_poi_clean_base.py:78:    '深圳市_摩托车服务.shp':     {'strategy': 'discard', 'reason': 'too few records in the full source dataset'},
+shenzhen-functional/code/03_poi_clean_base.py:79:    '深圳市_地名地址信息.shp':   {'strategy': 'discard', 'reason': 'address points rather than functional POIs'},
+shenzhen-functional/code/03_poi_clean_base.py:80:    '深圳市_事件活动.shp':       {'strategy': 'discard', 'reason': 'very few records in the full source dataset'},
+shenzhen-functional/code/03_poi_clean_base.py:86:    '产业园区',
+shenzhen-functional/code/03_poi_clean_base.py:87:    '写字楼',  # Occasionally appears as an office-building subclass in the residential source.
+shenzhen-functional/code/03_poi_clean_base.py:88:    '建筑物',  # Usually a single-building label rather than a residential function.
+shenzhen-functional/code/03_poi_clean_base.py:89:    '楼栋',
+shenzhen-functional/code/03_poi_clean_base.py:90:    '门牌信息',
+shenzhen-functional/code/03_poi_clean_base.py:102:    '大类': 'raw_dalei',
+shenzhen-functional/code/03_poi_clean_base.py:103:    '中类': 'raw_zhonglei',
+shenzhen-functional/code/03_poi_clean_base.py:104:    '小类': 'raw_xiaolei',
+shenzhen-functional/code/03_poi_clean_base.py:212:            if '中类' not in gdf.columns:
+shenzhen-functional/code/03_poi_clean_base.py:213:                print(f"\nMissing required field '中类' in {fname}")
+shenzhen-functional/code/03_poi_clean_base.py:215:            sub = gdf[gdf['中类'].astype(str).isin(keep_zl)].copy()
+shenzhen-functional/code/03_poi_clean_base.py:221:            zl = gdf['中类'].astype(str) if '中类' in gdf.columns else pd.Series([''] * len(gdf))
+shenzhen-functional/code/03_poi_clean_base.py:222:            xl = gdf['小类'].astype(str) if '小类' in gdf.columns else pd.Series([''] * len(gdf))
+shenzhen-functional/code/02_poi_inspect_categories_duplicates.py:35:            # Prefer the 大类 column; fall back to typename when needed.
+shenzhen-functional/code/02_poi_inspect_categories_duplicates.py:36:            if '大类' in gdf.columns:
+shenzhen-functional/code/02_poi_inspect_categories_duplicates.py:37:                col = '大类'
+shenzhen-functional/code/02_poi_inspect_categories_duplicates.py:75:    f = poi_dir / '深圳市_公司企业.shp'
+shenzhen-functional/code/02_poi_inspect_categories_duplicates.py:87:    if '中类' in gdf.columns:
+shenzhen-functional/code/02_poi_inspect_categories_duplicates.py:88:        vc = gdf['中类'].astype(str).value_counts().head(30)
+shenzhen-functional/code/02_poi_inspect_categories_duplicates.py:96:    if '小类' in gdf.columns:
+shenzhen-functional/code/02_poi_inspect_categories_duplicates.py:97:        vc = gdf['小类'].astype(str).value_counts().head(50)
+shenzhen-functional/code/02_poi_inspect_categories_duplicates.py:101:        gdf['小类'].astype(str).value_counts().to_csv(
+shenzhen-functional/code/02_poi_inspect_categories_duplicates.py:122:            '工厂_后缀': ['工厂$', '制造厂$', '加工厂$', '化工厂$', '机械厂$',
+shenzhen-functional/code/02_poi_inspect_categories_duplicates.py:123:                       '电子厂$', '塑胶厂$', '五金厂$', '印刷厂$'],
+shenzhen-functional/code/02_poi_inspect_categories_duplicates.py:124:            '工厂_含': ['工厂', '制造厂', '加工厂'],
+shenzhen-functional/code/02_poi_inspect_categories_duplicates.py:125:            '工业园区': ['工业园', '产业园', '工业区'],
+shenzhen-functional/code/02_poi_inspect_categories_duplicates.py:126:            '科技园区': ['科技园', '创新园', '研发中心', '总部'],
+shenzhen-functional/code/02_poi_inspect_categories_duplicates.py:127:            '咨询服务': ['咨询', '顾问', '事务所'],
+shenzhen-functional/code/02_poi_inspect_categories_duplicates.py:128:            '贸易': ['贸易', '商贸', '商务'],
+shenzhen-functional/code/02_poi_inspect_categories_duplicates.py:129:            '投资': ['投资', '资本', '基金', '控股'],
+shenzhen-functional/code/02_poi_inspect_categories_duplicates.py:130:            '文化传媒': ['文化', '传媒', '广告', '影视', '设计'],
+shenzhen-functional/code/02_poi_inspect_categories_duplicates.py:131:            '科技公司': ['科技有限公司', '信息技术'],
+shenzhen-functional/code/02_poi_inspect_categories_duplicates.py:132:            '教育培训': ['教育', '培训', '学校'],
+shenzhen-functional/code/02_poi_inspect_categories_duplicates.py:133:            '律师所': ['律师', '法律服务'],
+shenzhen-functional/code/02_poi_inspect_categories_duplicates.py:145:    if '中类' in gdf.columns and '小类' in gdf.columns:
+shenzhen-functional/code/02_poi_inspect_categories_duplicates.py:146:        joint = gdf.groupby(['中类', '小类']).size().reset_index(name='count')
+shenzhen-functional/code/02_poi_inspect_categories_duplicates.py:176:                        'file': f.name.replace('深圳市_', '').replace('.shp', ''),
+shenzhen-functional/code/04_poi_clean_industrial_patch.py:14:POI_FILE = Path('data/poi_2020/深圳市_公司企业.shp')
+shenzhen-functional/code/04_poi_clean_industrial_patch.py:18:INDUSTRIAL_XIAOLEI_TO_ADD = ['机械电子', '冶金化工']
+shenzhen-functional/code/04_poi_clean_industrial_patch.py:33:    # Filter records where 中类 == 公司 and 小类 is in the industrial subclass list.
+shenzhen-functional/code/04_poi_clean_industrial_patch.py:34:    if '中类' not in gdf.columns or '小类' not in gdf.columns:
+shenzhen-functional/code/04_poi_clean_industrial_patch.py:35:        print("Missing required fields: 中类 or 小类")
+shenzhen-functional/code/04_poi_clean_industrial_patch.py:38:    mask = (gdf['中类'].astype(str) == '公司') & \
+shenzhen-functional/code/04_poi_clean_industrial_patch.py:39:           (gdf['小类'].astype(str).isin(INDUSTRIAL_XIAOLEI_TO_ADD))
+shenzhen-functional/code/04_poi_clean_industrial_patch.py:42:    print(f"\n   Filter result (中类=公司, 小类 in {INDUSTRIAL_XIAOLEI_TO_ADD}):")
+shenzhen-functional/code/04_poi_clean_industrial_patch.py:44:        cnt = (sub['小类'].astype(str) == xl).sum()
+shenzhen-functional/code/04_poi_clean_industrial_patch.py:56:        '大类': 'raw_dalei', '中类': 'raw_zhonglei', '小类': 'raw_xiaolei',
+shenzhen-functional/code/04_poi_clean_industrial_patch.py:64:    sub['source_file'] = '深圳市_公司企业.shp'

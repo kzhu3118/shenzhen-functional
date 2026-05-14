@@ -1,0 +1,8 @@
+              precision    recall  f1-score   support
+
+  production       0.00      0.00      0.00        41
+      living       0.32      0.15      0.20        54
+
+   micro avg       0.32      0.08      0.13        95
+   macro avg       0.16      0.07      0.10        95
+weighted avg       0.18      0.08      0.12        95

@@ -1,0 +1,5 @@
+﻿class,total_poi,grids_with_poi,mean_density_per_grid
+industrial,6376,3193,1.9969
+residential,23836,5952,4.0047
+commercial,531060,9036,58.7716
+public_service,81029,7251,11.1749

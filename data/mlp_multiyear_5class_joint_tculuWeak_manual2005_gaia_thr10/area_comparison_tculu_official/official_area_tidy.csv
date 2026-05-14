@@ -1,0 +1,16 @@
+﻿year,metric,area_km2,indicator,unit,来源
+2010,official_industrial,296.21,城市工业建设用地面积,平方公里,中国城市建设统计年鉴
+2015,official_industrial,316.11,城市工业建设用地面积,平方公里,中国城市建设统计年鉴
+2020,official_industrial,273.42,城市工业建设用地面积,平方公里,中国城市建设统计年鉴
+2010,official_residential,213.99,城市居住建设用地面积,平方公里,中国城市建设统计年鉴
+2015,official_residential,242.21,城市居住建设用地面积,平方公里,中国城市建设统计年鉴
+2020,official_residential,227.48,城市居住建设用地面积,平方公里,中国城市建设统计年鉴
+2000,official_built_up,136.0,建成区面积,平方公里,中国城市统计年鉴
+2005,official_built_up,713.0,建成区面积,平方公里,深圳社会建设统计年鉴
+2010,official_built_up,813.0,建成区面积,平方公里,深圳社会建设统计年鉴
+2015,official_built_up,900.0,建成区面积,平方公里,中国城市统计年鉴
+2020,official_built_up,955.68,建成区面积,平方公里,中国城市统计年鉴
+2010,official_industrial_land_supply,0.624,国有建设工矿仓储用地供应情况,公顷,中国国土资源统计年鉴
+2015,official_industrial_land_supply,1.3671,国有建设工矿仓储用地供应情况,公顷,中国国土资源统计年鉴
+2015,official_commercial,50.69,城市商业服务业设施用地面积,平方公里,中国城市建设统计年鉴
+2020,official_commercial,60.65,城市商业服务业设施用地面积,平方公里,中国城市建设统计年鉴

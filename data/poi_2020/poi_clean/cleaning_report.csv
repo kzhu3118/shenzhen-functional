@@ -1,0 +1,24 @@
+﻿filename,strategy,raw_count,kept_count,subclass,note,dup_removed,ples
+深圳市_事件活动.shp,discard,4,0,,量极少 (4),,
+深圳市_交通设施服务.shp,discard,39924,0,,交通基础设施,,
+深圳市_住宿服务.shp,all_to,17272,17158,commercial,整文件归入,114.0,living
+深圳市_体育休闲服务.shp,all_to,15559,15346,commercial,整文件归入,213.0,living
+深圳市_公共设施.shp,discard,6027,0,,"路灯/公厕/闸机, 与PLES无关",,
+深圳市_公司企业.shp,company_filter,149063,3549,industrial,"按中类筛选: ['工厂', '机械电子', '冶金化工']",45.0,production
+深圳市_医疗保健服务.shp,all_to,22205,22164,public_service,整文件归入,41.0,living
+深圳市_商务住宅.shp,residential_filter,36403,23962,residential,"剔除非住宅子类: ['产业园区', '写字楼', '建筑物', '楼栋', '门牌信息']",161.0,living
+深圳市_地名地址信息.shp,discard,126723,0,,地址点而非功能POI,,
+深圳市_室内设施.shp,discard,15656,0,,楼内导航点,,
+深圳市_摩托车服务.shp,discard,223,0,,量太少 (223),,
+深圳市_政府机构及社会团体.shp,all_to,20554,20333,public_service,整文件归入,221.0,living
+深圳市_汽车服务.shp,discard,15118,0,,"汽车服务点, 功能弱",,
+深圳市_汽车维修.shp,discard,4156,0,,"汽车维修点, 功能弱",,
+深圳市_汽车销售.shp,all_to,2855,2546,commercial,整文件归入,309.0,living
+深圳市_生活服务.shp,all_to,143721,142023,commercial,整文件归入,1698.0,living
+深圳市_科教文化服务.shp,all_to,39222,38866,public_service,整文件归入,356.0,living
+深圳市_购物服务.shp,all_to,216821,212772,commercial,整文件归入,4049.0,living
+深圳市_通行设施.shp,discard,44344,0,,地铁站/闸机,,
+深圳市_道路附属设施.shp,discard,644,0,,道路设施,,
+深圳市_金融保险服务.shp,all_to,11417,11366,commercial,整文件归入,51.0,living
+深圳市_风景名胜.shp,all_to,3126,3112,ecological,整文件归入,14.0,ecological
+深圳市_餐饮服务.shp,all_to,133439,132295,commercial,整文件归入,1144.0,living

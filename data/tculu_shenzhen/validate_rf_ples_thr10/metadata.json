@@ -1,0 +1,37 @@
+{
+  "rf_gpkg": "/Volumes/拯救者PSSD/Aexercise/Shenzhen/UFSs_25/shenzhen-functional/data/rf_multiyear/noNTL_manual2005_gaia_ratio_thr10/shenzhen_ples_multiyear_noNTL_manual2005_gaia_ratio.gpkg",
+  "tculu_clip_dir": "/Volumes/拯救者PSSD/Aexercise/Shenzhen/UFSs_25/shenzhen-functional/data/tculu_shenzhen/clips",
+  "out_dir": "/Volumes/拯救者PSSD/Aexercise/Shenzhen/UFSs_25/shenzhen-functional/data/tculu_shenzhen/validate_rf_ples_thr10",
+  "years": [
+    2000,
+    2005,
+    2010,
+    2015,
+    2020
+  ],
+  "min_valid_frac": 0.2,
+  "class_names": {
+    "1": "water",
+    "2": "green_space",
+    "3": "farmland",
+    "4": "bare_land",
+    "5": "residential",
+    "6": "commercial",
+    "7": "institutional",
+    "8": "industrial",
+    "9": "transport"
+  },
+  "strict_ples_mapping": {
+    "1": "ecological",
+    "2": "ecological",
+    "3": "ecological",
+    "5": "living",
+    "6": "living",
+    "7": "living",
+    "8": "production"
+  },
+  "ambiguous_tculu_classes_excluded_from_strict_ples": {
+    "4": "bare_land",
+    "9": "transport"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "landuse_dir": "data/external/china_urban_landuse",
+  "boundary": "data/boundary/Hexagon_clip.shp",
+  "out_dir": "data/tculu_shenzhen",
+  "years": [
+    2000,
+    2005,
+    2010,
+    2015,
+    2020,
+    2024
+  ],
+  "class_mapping": {
+    "1": "water",
+    "2": "green_space",
+    "3": "farmland",
+    "4": "bare_land",
+    "5": "residential",
+    "6": "commercial",
+    "7": "institutional",
+    "8": "industrial",
+    "9": "transport"
+  },
+  "area_method": "Web-Mercator latitude correction: projected pixel area * cos(latitude)^2",
+  "all_touched": false
+}

@@ -1,0 +1,26 @@
+{
+  "features_csv": "data/GEE/shenzhen_features_2000_2020/shenzhen_features_2020.csv",
+  "label_gpkg": "data/multisource_labels_2020_5class_weight_sweep/tculuProd_1p5/multisource_labels_2020_5class.gpkg",
+  "feature_count": 70,
+  "classes": [
+    "farmland",
+    "green_space",
+    "living",
+    "production",
+    "water"
+  ],
+  "args": {
+    "features_csv": "data/GEE/shenzhen_features_2000_2020/shenzhen_features_2020.csv",
+    "label_gpkg": "data/multisource_labels_2020_5class_weight_sweep/tculuProd_1p5/multisource_labels_2020_5class.gpkg",
+    "label_layer": "labels",
+    "out_dir": "data/multisource_labels_2020_5class_weight_sweep/tculuProd_1p5/model_test_mlp",
+    "test_size": 0.3,
+    "min_confidence": 0.4,
+    "min_weight": 0.2,
+    "drop_ntl": false,
+    "rf_trees": 500,
+    "mlp_hidden": "128,64",
+    "mlp_max_iter": 500
+  },
+  "note": "MLP is sklearn tabular MLP. geoenv currently has no torch/tensorflow installed."
+}

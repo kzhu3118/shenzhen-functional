@@ -1,0 +1,306 @@
+{
+  "rf": {
+    "vs_poi": {
+      "n": 2036,
+      "accuracy": 0.730844793713163,
+      "f1_macro": 0.25202540590704364,
+      "report": {
+        "farmland": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "green_space": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "living": {
+          "precision": 0.8434727503168568,
+          "recall": 0.8226205191594561,
+          "f1-score": 0.8329161451814768,
+          "support": 1618.0
+        },
+        "production": {
+          "precision": 0.4952681388012618,
+          "recall": 0.37559808612440193,
+          "f1-score": 0.4272108843537415,
+          "support": 418.0
+        },
+        "water": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "accuracy": 0.730844793713163,
+        "macro avg": {
+          "precision": 0.2677481778236237,
+          "recall": 0.2396437210567716,
+          "f1-score": 0.25202540590704364,
+          "support": 2036.0
+        },
+        "weighted avg": {
+          "precision": 0.771984770153046,
+          "recall": 0.730844793713163,
+          "f1-score": 0.749623021887767,
+          "support": 2036.0
+        }
+      }
+    },
+    "vs_euluc": {
+      "n": 1484,
+      "accuracy": 0.6731805929919138,
+      "f1_macro": 0.31939790780948385,
+      "report": {
+        "farmland": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "green_space": {
+          "precision": 0.7142857142857143,
+          "recall": 0.2755905511811024,
+          "f1-score": 0.3977272727272727,
+          "support": 381.0
+        },
+        "living": {
+          "precision": 0.691533948030176,
+          "recall": 0.9105960264900662,
+          "f1-score": 0.786088613625536,
+          "support": 906.0
+        },
+        "production": {
+          "precision": 0.5036496350364964,
+          "recall": 0.350253807106599,
+          "f1-score": 0.41317365269461076,
+          "support": 197.0
+        },
+        "water": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "accuracy": 0.6731805929919138,
+        "macro avg": {
+          "precision": 0.3818938594704774,
+          "recall": 0.30728807695555355,
+          "f1-score": 0.31939790780948385,
+          "support": 1484.0
+        },
+        "weighted avg": {
+          "precision": 0.6724336874396135,
+          "recall": 0.6731805929919138,
+          "f1-score": 0.6368770784600167,
+          "support": 1484.0
+        }
+      }
+    },
+    "vs_tculu": {
+      "n": 3029,
+      "accuracy": 0.8121492241663916,
+      "f1_macro": 0.7116918667744001,
+      "report": {
+        "farmland": {
+          "precision": 0.9090909090909091,
+          "recall": 0.4225352112676056,
+          "f1-score": 0.5769230769230769,
+          "support": 71.0
+        },
+        "green_space": {
+          "precision": 0.93476465730801,
+          "recall": 0.8955696202531646,
+          "f1-score": 0.9147474747474748,
+          "support": 1264.0
+        },
+        "living": {
+          "precision": 0.7365010799136069,
+          "recall": 0.8895652173913043,
+          "f1-score": 0.8058290665616384,
+          "support": 1150.0
+        },
+        "production": {
+          "precision": 0.6855524079320113,
+          "recall": 0.49287169042769857,
+          "f1-score": 0.5734597156398105,
+          "support": 491.0
+        },
+        "water": {
+          "precision": 0.7674418604651163,
+          "recall": 0.6226415094339622,
+          "f1-score": 0.6875,
+          "support": 53.0
+        },
+        "accuracy": 0.8121492241663916,
+        "macro avg": {
+          "precision": 0.8066701829419307,
+          "recall": 0.6646366497547471,
+          "f1-score": 0.7116918667744001,
+          "support": 3029.0
+        },
+        "weighted avg": {
+          "precision": 0.8155645012158125,
+          "recall": 0.8121492241663916,
+          "f1-score": 0.8061776142183487,
+          "support": 3029.0
+        }
+      }
+    }
+  },
+  "mlp": {
+    "vs_poi": {
+      "n": 2036,
+      "accuracy": 0.7573673870333988,
+      "f1_macro": 0.25977891613180437,
+      "report": {
+        "farmland": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "green_space": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "living": {
+          "precision": 0.85,
+          "recall": 0.8510506798516687,
+          "f1-score": 0.8505250154416306,
+          "support": 1618.0
+        },
+        "production": {
+          "precision": 0.5188679245283019,
+          "recall": 0.39473684210526316,
+          "f1-score": 0.4483695652173913,
+          "support": 418.0
+        },
+        "water": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "accuracy": 0.7573673870333988,
+        "macro avg": {
+          "precision": 0.27377358490566034,
+          "recall": 0.24915750439138637,
+          "f1-score": 0.25977891613180437,
+          "support": 2036.0
+        },
+        "weighted avg": {
+          "precision": 0.782017088631056,
+          "recall": 0.7573673870333988,
+          "f1-score": 0.7679606843052199,
+          "support": 2036.0
+        }
+      }
+    },
+    "vs_euluc": {
+      "n": 1484,
+      "accuracy": 0.6765498652291105,
+      "f1_macro": 0.3213938220684017,
+      "report": {
+        "farmland": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "green_space": {
+          "precision": 0.76,
+          "recall": 0.24934383202099739,
+          "f1-score": 0.37549407114624506,
+          "support": 381.0
+        },
+        "living": {
+          "precision": 0.6930775646371977,
+          "recall": 0.9172185430463576,
+          "f1-score": 0.7895486935866983,
+          "support": 906.0
+        },
+        "production": {
+          "precision": 0.5,
+          "recall": 0.39593908629441626,
+          "f1-score": 0.44192634560906513,
+          "support": 197.0
+        },
+        "water": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "accuracy": 0.6765498652291105,
+        "macro avg": {
+          "precision": 0.39061551292743957,
+          "recall": 0.31250029227235426,
+          "f1-score": 0.3213938220684017,
+          "support": 1484.0
+        },
+        "weighted avg": {
+          "precision": 0.6846282166855129,
+          "recall": 0.6765498652291105,
+          "f1-score": 0.6370982800412762,
+          "support": 1484.0
+        }
+      }
+    },
+    "vs_tculu": {
+      "n": 3029,
+      "accuracy": 0.7896995708154506,
+      "f1_macro": 0.6589580687077594,
+      "report": {
+        "farmland": {
+          "precision": 0.7857142857142857,
+          "recall": 0.30985915492957744,
+          "f1-score": 0.4444444444444444,
+          "support": 71.0
+        },
+        "green_space": {
+          "precision": 0.9234828496042217,
+          "recall": 0.8306962025316456,
+          "f1-score": 0.8746355685131195,
+          "support": 1264.0
+        },
+        "living": {
+          "precision": 0.7083333333333334,
+          "recall": 0.9017391304347826,
+          "f1-score": 0.7934200459066565,
+          "support": 1150.0
+        },
+        "production": {
+          "precision": 0.7111111111111111,
+          "recall": 0.5213849287169042,
+          "f1-score": 0.6016451233842538,
+          "support": 491.0
+        },
+        "water": {
+          "precision": 0.675,
+          "recall": 0.5094339622641509,
+          "f1-score": 0.5806451612903226,
+          "support": 53.0
+        },
+        "accuracy": 0.7896995708154506,
+        "macro avg": {
+          "precision": 0.7607283159525904,
+          "recall": 0.6146226757754121,
+          "f1-score": 0.6589580687077594,
+          "support": 3029.0
+        },
+        "weighted avg": {
+          "precision": 0.7997959475319707,
+          "recall": 0.7896995708154506,
+          "f1-score": 0.7843215305641629,
+          "support": 3029.0
+        }
+      }
+    }
+  }
+}

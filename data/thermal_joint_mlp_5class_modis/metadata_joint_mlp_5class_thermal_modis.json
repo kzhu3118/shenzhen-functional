@@ -1,0 +1,42 @@
+{
+  "ples_gpkg": "data/mlp_multiyear_5class_joint_tculuWeak_manual2005_gaia_thr10/shenzhen_5class_joint_mlp_multiyear.gpkg",
+  "ples_layer": "pred5_joint_mlp",
+  "lst_dir": "data/GEE/shenzhen_features_2000_2020",
+  "feature_dir": "data/GEE/shenzhen_features_2000_2020",
+  "years": [
+    2000,
+    2005,
+    2010,
+    2015,
+    2020
+  ],
+  "stages": [
+    [
+      2000,
+      2005
+    ],
+    [
+      2005,
+      2010
+    ],
+    [
+      2010,
+      2015
+    ],
+    [
+      2015,
+      2020
+    ]
+  ],
+  "classes": [
+    "production",
+    "living",
+    "green_space",
+    "water",
+    "farmland"
+  ],
+  "n_bootstrap": 1000,
+  "min_n_table": 30,
+  "min_n_psm": 80,
+  "note": "Uses GAIA-adjusted mlp_pred5_YEAR labels from joint MLP five-class multiyear prediction."
+}
