@@ -93,8 +93,7 @@ If you use this code or data, please cite:
 
 ```
 Zhu, K., Lu, H., Yao, T., Zhang, X., Liang, D., & Tian, P. Long-term thermal effects
-of functional-ecological land transitions in Shenzhen, 2000–2020. Building and
-Environment (under review).
+of functional-ecological land transitions in Shenzhen, 2000–2020. 
 ```
 
 ## Contact
