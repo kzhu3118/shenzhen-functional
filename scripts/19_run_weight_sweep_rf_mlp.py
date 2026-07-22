@@ -19,8 +19,8 @@ import pandas as pd
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-FUSE_SCRIPT = PROJECT_ROOT / "code/16_fuse_multisource_labels_2020.py"
-TRAIN_SCRIPT = PROJECT_ROOT / "code/18_train_mlp_multisource_2020.py"
+FUSE_SCRIPT = PROJECT_ROOT / "scripts/16_fuse_multisource_labels_2020.py"
+TRAIN_SCRIPT = PROJECT_ROOT / "scripts/18_train_mlp_multisource_2020.py"
 BASE_OUT = PROJECT_ROOT / "data/multisource_labels_2020_5class_weight_sweep"
 
 
