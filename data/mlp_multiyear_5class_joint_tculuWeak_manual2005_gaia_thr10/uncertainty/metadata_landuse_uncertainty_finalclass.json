@@ -1,0 +1,25 @@
+{
+  "source_final_gpkg": "data/mlp_multiyear_5class_joint_tculuWeak_manual2005_gaia_thr10/shenzhen_5class_joint_mlp_multiyear.gpkg",
+  "source_final_layer": "pred5_joint_mlp",
+  "source_model": "data/mlp_multiyear_5class_joint_tculuWeak_manual2005_gaia_thr10/mlp_joint_5class_multiyear.joblib",
+  "source_heldout": "data/mlp_multiyear_5class_joint_tculuWeak_manual2005_gaia_thr10/joint_heldout_predictions.csv",
+  "metadata": "data/mlp_multiyear_5class_joint_tculuWeak_manual2005_gaia_thr10/metadata_joint_5class_multiyear.json",
+  "years": [
+    2000,
+    2005,
+    2010,
+    2015,
+    2020
+  ],
+  "model_classes_order": [
+    "farmland",
+    "green_space",
+    "living",
+    "production",
+    "water"
+  ],
+  "feature_count": 70,
+  "metric_definition": "uncertainty_YEAR = 1 - P(final GAIA-constrained class)",
+  "calibrated_metric_definition": "cal_uncertainty_YEAR = 1 - calibrated P(final GAIA-constrained class); calibration uses one-vs-rest isotonic regression fitted on held-out samples.",
+  "note": "final_prob_YEAR is the MLP probability assigned to mlp_pred5_YEAR, the final post-GAIA-constraint class used in the land-use maps. cal_final_prob_YEAR is the corresponding one-vs-rest isotonic calibrated probability."
+}
